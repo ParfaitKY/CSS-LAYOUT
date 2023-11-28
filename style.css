@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  font-weight: 500, 700, 800;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 1rem;
+}
+.cercle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(45, 18, 122);
+  position: absolute;
+  top: 8rem;
+  left: 6.5rem;
+  z-index: -1;
+}
+.result {
+  padding-top: 5rem;
+  color: hsl(241, 100%, 89%);
+}
+.pourcent76 {
+  font-size: 45px;
+  font-weight: 900;
+  color: white;
+  padding-top: 20px;
+}
+.pourcent100 {
+  color: hsl(241, 100%, 89%);
+  padding-top: 10px;
+}
+.great {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  color: white;
+  font-size: 2rem;
+}
+.great-p {
+  color: hsl(241, 100%, 89%);
+}
+.container1 p {
+  text-align: center;
+}
+.container-div {
+  padding-top: 2rem;
+}
+.container1 {
+  background-color: hsla(256, 72%, 46%, 1);
+  width: 350px;
+  height: 520px;
+  border-radius: 40px;
+  position: relative;
+  z-index: 1;
+  margin-top: 1rem;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+  display: flex;
+  border: 1px solid red;
+  width: 100%;
+  padding: 15px;
+  margin-top: 1rem;
+}
+.div1 {
+  background-color: hsla(0, 100%, 67%, 0.181);
+  border: none;
+  border-radius: 15px;
+  width: 100%;
+}
+.div2 {
+  background-color: hsla(39, 100%, 56%, 0.177);
+  border: none;
+  border-radius: 15px;
+  width: 100%;
+}
+.div3 {
+  background-color: rgba(0, 189, 145, 0.108);
+  border: none;
+  border-radius: 15px;
+  width: 100%;
+}
+.div4 {
+  background-color: hsla(234, 85%, 45%, 0.067);
+  border: none;
+  border-radius: 15px;
+  width: 100%;
+}
+.pourcent80 {
+  margin-left: 4rem;
+}
+.pourcent92 {
+  margin-left: 4rem;
+}
+.pourcent61 {
+  margin-left: 5rem;
+}
+.pourcent72 {
+  margin-left: 5rem;
+}
+.container2 {
+  margin-left: 1rem;
+  
+}
+.sumarry{
+  margin-bottom: 1rem;
+  font-size: 35px;
+  color: rgb(86, 50, 185);
+  font-weight: 900;
+}
+.button {
+  padding: 17px;
+  border-radius: 40px;
+  width: 100%;
+  font-size: 15px;
+  background-color: hsl(241, 43%, 28%);
+  border: none;
+  color: hsl(241, 100%, 89%);;
+  font-weight: 900;
+  margin-top: 6rem;
+}
